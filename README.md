@@ -1,2 +1,3 @@
-# web_page
-Developed a responsive website using HTML, CSS, JavaScript, and Bootstrap, integrated with a SQL database for data storage and management.
+# internet provider service page "Wire the future"
+
+"Developed a dynamic and responsive website for an Internet Service Provider specializing in wired internet installation and security camera systems. The site was built using HTML, CSS, JavaScript, and Bootstrap to ensure a seamless user experience across devices. Integrated with a SQL database for efficient data storage and management, the website includes a booking system that allows customers to schedule installations or consultations effortlessly. With a focus on user-friendly design and functionality, the platform streamlines service booking, showcases service offerings, and enhances customer interaction while maintaining modern aesthetics and reliability."
