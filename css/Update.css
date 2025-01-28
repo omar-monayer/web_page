@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main,header{
+    
+    background-color: aliceblue;
+}
+h1{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 70px;
+    color: rgb(103, 103, 255);
+}
+.update{
+    background-color: rgb(103, 103, 255);
+    color: white;
+    border-radius: 20px;
+    width: 30%;
+    margin-left: 500px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.update h3{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.update input,select{
+    border-radius: 5px;
+    border: hidden;
+    width: 90%;
+}
+#email,#password,#full-name,#phone,#location{
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-family: serif;
+
+}
+
+label{
+    margin-left: 20px;
+    text-align: left;
+}
+#update-button {
+    background-color: white; /* Black background */
+    color: rgb(103, 103, 255);; /* White text */
+    border: none; /* No border */
+    border-radius: 50px; /* Makes the button capsule-shaped */
+    padding: 10px 30px; /* Add padding for a more capsule-like shape */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Change cursor on hover */
+    display: flex; /* Centering text */
+    align-items: center; /* Centering text vertically */
+    justify-content: center; /* Centering text horizontally */
+    transition: background-color 0.3s; /* Smooth background color change */
+    margin-left: 170px;
+    margin-bottom: 15px;
+}
+.update p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+@media (max-width: 480px){
+    h1 {
+        font-size: 50px; /* Reduce font size for smaller screens */
+    }
+
+    .update{
+        width: 90%; /* Make the form take up most of the screen width */
+        margin: 10px auto; /* Center the form with some margin */
+    }
+
+    #update-button{
+        padding: 8px 20px; /* Adjust padding for smaller screens */
+    }
+}
+@media (min-width: 481px) and (max-width: 767px ){
+    h1 {
+        font-size: 60px; /* Reduce font size for smaller screens */
+    }
+
+    .update {
+        width: 70%; 
+        margin: 10px auto; 
+    }
+
+    #update-button {
+        padding: 8px 20px; /* Adjust padding for smaller screens */
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    h1 {
+        font-size: 65px; /* Reduce font size for smaller screens */
+    }
+
+    .update{
+        width: 50%; 
+        margin: 10px auto; 
+    }
+
+    #update-button {
+        
+        align-items: center;
+    }
+}
+
+

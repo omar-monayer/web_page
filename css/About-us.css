@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    background-color: rgb(103, 103, 255);
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+.nav-bar a{
+    color:white;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    text-decoration: none;
+    
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.nav-icon {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+#profile {
+    margin-left: auto;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon i, #profile i {
+    margin-right: 5px; 
+}
+
+.nav_image {
+    vertical-align: middle; 
+}
+main{
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: aliceblue;
+}
+
+
+
+.part-1 h1{
+    margin-top: 20px;
+   
+}
+.grid{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    text-align: left;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.card-1,.card-2{
+    padding: 20px;
+    background-color: rgb(103, 103, 255);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+.card-1 h1,.card-2 h1{
+    margin-bottom: 10px;
+}
+.card-1 p,.card-2 p{
+    font-size: 20px;
+}
+
+
+
+
+.part-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.part-2 h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 60px; /* Adjust the font size as needed */
+    color:rgb(103, 103, 255) ; /* Adjust the color as needed */
+}
+
+
+.part-2 div {
+    text-align: center;
+    width: 20%;
+}
+
+.part-2 div i {
+    font-size: 40px; /* Size of the icon */
+    background-color: rgb(103, 103, 255); /* Background color of the circle */
+    color: white; /* Color of the icon */
+    padding: 20px; /* Space inside the circle */
+    border-radius: 50%; /* Makes the background a circle */
+    margin-bottom: 10px; /* Space between icon and text */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.part-2 div p:first-of-type{
+    margin-top: 10px;
+    font-size: 18px; /* Size of the label text */
+    font-weight: bold;
+    color: rgb(103, 103, 255); /* Color of the text */
+}
+
+.part-2 div p:last-of-type{
+    font-size: 14px; /* Size of the description text */
+    color: rgb(103, 103, 255); /* Color of the text */
+}
+
+.part-2 .icon-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px; /* Set a max-width to control spacing */
+}
+
+.part-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.part-3 h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 70px; /* Adjust the font size as needed */
+    color: rgb(103, 103, 255); /* Adjust the color as needed */
+}
+
+.part-3 div {
+    text-align: center;
+    width: 20%;
+}
+
+.part-3 div i {
+    font-size: 40px; /* Size of the icon */
+    background-color: rgb(103, 103, 255); /* Background color of the circle */
+    color: white; /* Color of the icon */
+    padding: 20px; /* Space inside the circle */
+    border-radius: 50%; /* Makes the background a circle */
+    margin-bottom: 10px; /* Space between icon and text */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.part-3 div p:first-of-type {
+    margin-top: 10px;
+    font-size: 18px; /* Size of the label text */
+    font-weight: bold;
+    color: rgb(103, 103, 255); /* Color of the text */
+}
+
+.part-3 div p:last-of-type {
+    font-size: 14px; /* Size of the description text */
+    color: rgb(103, 103, 255); /* Color of the text */
+}
+
+.part-3 .icon-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px; /* Set a max-width to control spacing */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom {
+    background-color: rgb(103, 103, 255);
+    padding: 20px;
+    margin-top: 20px;
+}
+.bottom p,a{
+    color: white;
+}
+
+.bottom-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 50px;
+
+}
+
+.second-p{
+    margin-top: 10px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    font-size: 20px;
+}
+
+.follow p {
+    margin-bottom: 10px;
+}
+@media (max-width: 480px){
+    .nav1{
+        display: none;
+    }
+    
+    
+    
+    .part-1{
+     margin-top: 40px;   
+     padding-right: 40px;
+    }
+    
+    .card-1 p,.card-2 p{
+        font-size: 8px;
+    }
+    .part-2{
+        padding: 20px;
+    }
+    .part-2 div p:first-of-type{
+      
+        font-size: 12px;
+    
+    }
+    
+    .part-2 div p:last-of-type{
+        font-size: 8px; /* Size of the description text */
+        
+    }
+    .part-3 div p:first-of-type {
+       
+        font-size: 12px; /* Size of the label text */
+      
+    }
+    
+    .part-3 div p:last-of-type {
+        font-size: 8px; /* Size of the description text */
+        
+    }
+    .card-1 h1,.card-2 h1{
+        font-size: 30px;
+    }
+    .card-1 p,.card-2 p{
+        font-size: 20px;
+    }
+    .part-3{
+        margin-top: 0;
+        padding-right: 16px;
+    }
+    
+
+
+    
+}
+@media (min-width: 481px) and (max-width: 767px ){
+    .nav1{
+        display: none;
+    }
+    .part-1{
+        margin-top: 40px;   
+        padding-right: 40px;
+       }
+       
+       .card-1 p,.card-2 p{
+           font-size: 8px;
+       }
+       .part-2{
+           padding: 20px;
+       }
+       .part-2 div p:first-of-type{
+         
+           font-size: 16px;
+       
+       }
+       
+       .part-2 div p:last-of-type{
+           font-size: 12px; /* Size of the description text */
+           
+       }
+       .part-3 div p:first-of-type {
+          
+           font-size: 16px; /* Size of the label text */
+         
+       }
+       
+       .part-3 div p:last-of-type {
+           font-size: 12px; /* Size of the description text */
+           
+       }
+       .card-1 h1,.card-2 h1{
+           font-size: 30px;
+       }
+       .card-1 p,.card-2 p{
+           font-size: 20px;
+       }
+       .part-3{
+           margin-top: 0;
+           padding-right: 16px;
+       }
+       
+
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    #nav2{
+        display: none;
+    }
+}
+@media (min-width: 1025px){
+    #nav2{
+        display: none;
+    }
+
+}
